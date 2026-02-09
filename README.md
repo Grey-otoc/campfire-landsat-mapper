@@ -6,17 +6,17 @@ A simple map interface that utilises Landsat imagery from the Google Earth Engin
 ## Lookbook
 ### Vegetation Condition Prior to Fire (October 7th, 2018)
 <p align="left">
-    <img src="screenshots/2018_10_07_overlay.png" width=400 />
+    <img src="screenshots/2018_10_07_overlay.png" width=800 />
 </p>
 
 ### Vegetation Condition in First Smoke/Cloud Free Image Since Fire (December 26th, 2018)
 <p align="left">
-    <img src="screenshots/2018_12_26_overlay.png" width=400 />
+    <img src="screenshots/2018_12_26_overlay.png" width=800 />
 </p>
 
 ### Vegetation Condition 2 Months After the Fire (January 27th, 2019)
 <p align="left">
-    <img src="screenshots/2019_01_27_overlay.png" width=400 />
+    <img src="screenshots/2019_01_27_overlay.png" width=800 />
 </p>
 
 ## Tech Stack
@@ -41,27 +41,20 @@ git clone https://github.com/Grey-otoc/campfire-landsat-mapper.git
 cd YOUR_FILE_PATH/campfire-landsat-mapper
 ```
 
-### 2. Setup Python Virtual Environment
+### 2. Install Poetry (Python Package and Dependency Manager)
 ```bash
-# Create virtual environment
-python3 -m venv venv
-
-# Activate it
-# Windows:
-venv\Scripts\activate
-# Mac/Linux:
-source venv/bin/activate
+pip install poetry
 ```
 
-### 3. Install Dependencies
+### 3. Install Dependencies Into Poetry Managed Virtual Environment
 ```bash
-pip install -r requirements.txt
+poetry install
 ```
 
-### 4. Run Jupyter Notebook Scripts in Whichever Medium You Prefer
+### 4. Run Jupyter Notebook Scripts
 For example, launch Jupyter Lab and run the scripts there:
 ```bash
-jupyter lab
+poetry run jupyter lab
 ```
 
 ### 5. Run All Scripts and Retrieve Your HTML File With the Map

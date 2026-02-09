@@ -1,5 +1,0 @@
-earthengine-api
-folium
-pandas
-geopandas
-jupyterlab

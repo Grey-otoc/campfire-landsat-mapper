@@ -1,0 +1,24 @@
+[tool.poetry]
+package-mode = false
+
+[project]
+name = "campfire-landsat-mapping"
+version = "0.1.0"
+description = "A simple map interface that utilises Landsat imagery from the Google Earth Engine API to visualise before and after damage caused by the 2018 \"Camp Fire\" fires of Northern California."
+authors = [
+    {name = "Dawson McCall",email = "dawsonmccall62@gmail.com"}
+]
+license = {text = "n"}
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "folium (>=0.20.0,<0.21.0)",
+    "earthengine-api (>=1.7.12,<2.0.0)",
+    "pandas (>=3.0.0,<4.0.0)",
+    "jupyterlab (>=4.5.3,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
