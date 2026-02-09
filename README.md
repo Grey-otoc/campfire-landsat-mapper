@@ -9,7 +9,7 @@ A simple map interface that utilises Landsat imagery from the Google Earth Engin
     <img src="screenshots/2018_10_07_overlay.png" width=800 />
 </p>
 
-### Vegetation Condition in First Smoke/Cloud Free Image Since Fire (December 26th, 2018)
+### Vegetation Condition in First Smoke/Cloud Free Image Since the Fire (December 26th, 2018)
 <p align="left">
     <img src="screenshots/2018_12_26_overlay.png" width=800 />
 </p>
